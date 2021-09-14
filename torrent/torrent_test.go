@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cenkalti/rain/internal/logger"
-	"github.com/cenkalti/rain/internal/webseedsource"
+	"github.com/bsergean/rain/internal/logger"
+	"github.com/bsergean/rain/internal/webseedsource"
 	"github.com/fortytw2/leaktest"
 )
 

@@ -3,7 +3,7 @@ package webseedsource
 import (
 	"time"
 
-	"github.com/cenkalti/rain/internal/urldownloader"
+	"github.com/bsergean/rain/internal/urldownloader"
 	"github.com/rcrowley/go-metrics"
 )
 

@@ -1,8 +1,8 @@
 package allocator
 
 import (
-	"github.com/cenkalti/rain/internal/metainfo"
-	"github.com/cenkalti/rain/internal/storage"
+	"github.com/bsergean/rain/internal/metainfo"
+	"github.com/bsergean/rain/internal/storage"
 )
 
 // Allocator allocates files on the disk.

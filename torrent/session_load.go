@@ -4,12 +4,12 @@ import (
 	"errors"
 	"path/filepath"
 
-	"github.com/cenkalti/rain/internal/bitfield"
-	"github.com/cenkalti/rain/internal/metainfo"
-	"github.com/cenkalti/rain/internal/resumer"
-	"github.com/cenkalti/rain/internal/resumer/boltdbresumer"
-	"github.com/cenkalti/rain/internal/storage/filestorage"
-	"github.com/cenkalti/rain/internal/webseedsource"
+	"github.com/bsergean/rain/internal/bitfield"
+	"github.com/bsergean/rain/internal/metainfo"
+	"github.com/bsergean/rain/internal/resumer"
+	"github.com/bsergean/rain/internal/resumer/boltdbresumer"
+	"github.com/bsergean/rain/internal/storage/filestorage"
+	"github.com/bsergean/rain/internal/webseedsource"
 	"go.etcd.io/bbolt"
 )
 

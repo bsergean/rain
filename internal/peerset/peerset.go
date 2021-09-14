@@ -1,7 +1,7 @@
 package peerset
 
 import (
-	"github.com/cenkalti/rain/internal/peer"
+	"github.com/bsergean/rain/internal/peer"
 )
 
 // PeerSet is slice of Peers with methods operation on this slice.

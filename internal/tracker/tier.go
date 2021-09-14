@@ -10,6 +10,7 @@ import (
 type Tier struct {
 	Trackers []Tracker
 	index    int
+	mutex    *sync.Mutex
 }
 
 var _ Tracker = (*Tier)(nil)

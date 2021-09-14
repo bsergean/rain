@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"hash"
 
-	"github.com/cenkalti/rain/internal/allocator"
-	"github.com/cenkalti/rain/internal/filesection"
-	"github.com/cenkalti/rain/internal/metainfo"
+	"github.com/bsergean/rain/internal/allocator"
+	"github.com/bsergean/rain/internal/filesection"
+	"github.com/bsergean/rain/internal/metainfo"
 )
 
 // BlockSize is the size of smallest piece data that we are going to request from peers.

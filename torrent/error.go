@@ -1,7 +1,7 @@
 package torrent
 
 import (
-	"github.com/cenkalti/rain/internal/announcer"
+	"github.com/bsergean/rain/internal/announcer"
 )
 
 // InputError is returned from Session.AddTorrent and Session.AddURI methods when there is problem with the input.

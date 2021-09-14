@@ -6,8 +6,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/cenkalti/rain/internal/logger"
-	"github.com/cenkalti/rain/internal/mse"
+	"github.com/bsergean/rain/internal/logger"
+	"github.com/bsergean/rain/internal/mse"
 )
 
 // Dial new connection to the address. Does the BitTorrent protocol handshake.

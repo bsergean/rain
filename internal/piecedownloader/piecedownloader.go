@@ -3,8 +3,8 @@ package piecedownloader
 import (
 	"errors"
 
-	"github.com/cenkalti/rain/internal/bufferpool"
-	"github.com/cenkalti/rain/internal/piece"
+	"github.com/bsergean/rain/internal/bufferpool"
+	"github.com/bsergean/rain/internal/piece"
 )
 
 var (

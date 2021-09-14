@@ -4,7 +4,7 @@ import (
 	"encoding/binary"
 	"io"
 
-	"github.com/cenkalti/rain/internal/peerprotocol"
+	"github.com/bsergean/rain/internal/peerprotocol"
 )
 
 // Piece of the torrent. Data is read by the PeerWriter's Run loop.

@@ -3,9 +3,9 @@ package torrent
 import (
 	"time"
 
-	"github.com/cenkalti/rain/internal/piecewriter"
-	"github.com/cenkalti/rain/internal/urldownloader"
-	"github.com/cenkalti/rain/internal/webseedsource"
+	"github.com/bsergean/rain/internal/piecewriter"
+	"github.com/bsergean/rain/internal/urldownloader"
+	"github.com/bsergean/rain/internal/webseedsource"
 )
 
 func (t *torrent) handleWebseedPieceResult(msg *urldownloader.PieceResult) {

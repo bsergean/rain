@@ -9,8 +9,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/cenkalti/rain/internal/bufferpool"
-	"github.com/cenkalti/rain/internal/piece"
+	"github.com/bsergean/rain/internal/bufferpool"
+	"github.com/bsergean/rain/internal/piece"
 )
 
 // URLDownloader downloads files from a HTTP source.

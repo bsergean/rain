@@ -10,10 +10,10 @@ import (
 	"net"
 	"time"
 
-	"github.com/cenkalti/rain/internal/bufferpool"
-	"github.com/cenkalti/rain/internal/logger"
-	"github.com/cenkalti/rain/internal/peerprotocol"
-	"github.com/cenkalti/rain/internal/piece"
+	"github.com/bsergean/rain/internal/bufferpool"
+	"github.com/bsergean/rain/internal/logger"
+	"github.com/bsergean/rain/internal/peerprotocol"
+	"github.com/bsergean/rain/internal/piece"
 	"github.com/juju/ratelimit"
 )
 

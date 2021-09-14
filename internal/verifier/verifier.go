@@ -3,8 +3,8 @@ package verifier
 import (
 	"crypto/sha1"
 
-	"github.com/cenkalti/rain/internal/bitfield"
-	"github.com/cenkalti/rain/internal/piece"
+	"github.com/bsergean/rain/internal/bitfield"
+	"github.com/bsergean/rain/internal/piece"
 )
 
 // Verifier verifies the pieces on disk.

@@ -1,7 +1,7 @@
 package pieceset
 
 import (
-	"github.com/cenkalti/rain/internal/piece"
+	"github.com/bsergean/rain/internal/piece"
 )
 
 // PieceSet is a slice of Piece with methods for operating on that slice.
