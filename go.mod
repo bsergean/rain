@@ -1,4 +1,4 @@
-module github.com/cenkalti/rain
+module github.com/bsergean/rain
 
 go 1.16
 
