@@ -41,7 +41,9 @@ func (t *torrent) handlePieceWriteDone(pw *piecewriter.PieceWriter) {
 
 	pw.Piece.Done = true
 	if t.bitfield.Test(pw.Piece.Index) {
-		panic(fmt.Sprintf("already have the piece #%d", pw.Piece.Index))
+		// panic(fmt.Sprintf("already have the piece #%d", pw.Piece.Index))
+		// do not panic, return an error instead
+		t.stop(errors.New(fmt.Sprintf("already have the piece #%d", pw.Piece.Index)))
 	}
 	t.mBitfield.Lock()
 	t.bitfield.Set(pw.Piece.Index)
