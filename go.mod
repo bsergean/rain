@@ -20,8 +20,8 @@ require (
 	github.com/nictuku/dht v0.0.0-20201226073453-fd1c1dd3d66a
 	github.com/powerman/rpc-codec v1.2.2
 	github.com/rcrowley/go-metrics v0.0.0-20201227073835-cf1acfcdf475
-	github.com/stretchr/testify v1.7.1
-	github.com/urfave/cli v1.22.9
+	github.com/stretchr/testify v1.8.1
+	github.com/urfave/cli v1.22.12
 	github.com/zeebo/bencode v1.0.0
 	go.etcd.io/bbolt v1.3.6
 	golang.org/x/exp v0.0.0-20220325121720-054d8573a5d8
@@ -32,7 +32,7 @@ require (
 require (
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/br0xen/termbox-util v0.0.0-20200220160819-dc6d6950ba00 // indirect
-	github.com/cpuguy83/go-md2man/v2 v2.0.0 // indirect
+	github.com/cpuguy83/go-md2man/v2 v2.0.2 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/fatih/color v1.10.0 // indirect
 	github.com/golang/groupcache v0.0.0-20200121045136-8c9f03a8e57e // indirect
@@ -67,6 +67,6 @@ require (
 	github.com/youtube/vitess v3.0.0-rc.3+incompatible // indirect
 	golang.org/x/crypto v0.0.0-20210322153248-0c34fe9e7dc2 // indirect
 	gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15 // indirect
-	gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
 	lukechampine.com/blake3 v1.1.6 // indirect
 )
